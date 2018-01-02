@@ -1,3 +1,6 @@
 // efecto preloader
-// $('#status').delay(3000).fadeOut();
-// $('#preloader').delay(3000).fadeOut('slow');
+$(document).ready(function() {
+  setTimeout(function() {
+    window.location.href = 'views/menu.html';
+  }, 3000);
+});
