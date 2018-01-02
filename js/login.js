@@ -3,7 +3,6 @@ $(document).ready(function() {
   var $password = $('#inputPassword');
   var $buttonSubmit = $('button[type="submit"]');
 
-  // variable booleanas para la activación del boton  
   var validateEmail = false;
   var validatePassword = false; 
 
@@ -26,12 +25,11 @@ $(document).ready(function() {
     }
   });
 
-
   $buttonSubmit.on('click', function(event) {
     event.preventDefault();
     if (validateEmail && validatePassword) {
       alert('Welcome!!');
-      window.location.href = 'close.html';
+      window.location.href = 'menu.html';
     } else {
       alert('Oh no, you need register');
     }

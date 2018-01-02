@@ -11,7 +11,8 @@ body {
 
 .vh100 {
   height: 100vh;
-} 
+}
+
 
 /* estilos del preload */
 
@@ -35,13 +36,14 @@ body {
   background: linear-gradient(to bottom right, #530261, #EA1791);
 }
 
+
 /* estilos de register */
 
 #center {
-  position: relative;
-  width: 400px;
   height: 500px;
   margin-left: -10px;
+  position: relative;
+  width: 400px;
 }
 
 #image {
@@ -54,18 +56,18 @@ body {
 }
 
 .background {
+  background-attachment: fixed;
   background-image: url(../assets/images/city.gif);
   background-position: bottom;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
-  width: 100%;
   overflow: hidden;
+  width: 100%;
 }
 
 .btn-height {
-  margin-top: 100px;
   margin-right: 10px;
+  margin-top: 100px;
 }
 
 .buttons-register {
@@ -78,14 +80,20 @@ body {
 }
 
 .style-button {
+  background-color: transparent;
   border: 1px solid rgb(240, 240, 240);
-  background-color: transparent;  
+}
+
+.style-button:hover {
+  background-color: rgb(0, 0, 0, 0.63);
+  border: 1px solid rgb(250, 0, 146);
 }
 
 hr {
   border-bottom: 1px solid rgb(95, 95, 95);
   margin-bottom: 30px;
 }
+
 
 /* estiilos de formularios */
 
@@ -103,12 +111,13 @@ hr {
   padding: 0.5em;
 }
 
+
 /*Signup*/
 
 .btn-style {
-  background-color: transparent; 
-  color: rgb(255, 0, 119);
+  background-color: transparent;
   border: none;
+  color: rgb(255, 0, 119);
   font-size: 25px;
   margin-bottom: 1em;
   padding: 15px;
@@ -124,8 +133,8 @@ hr {
   border: none;
   border-bottom: 1px solid #ea0b8c;
   border-radius: 0;
-  outline: none;
   margin-left: 10px;
+  outline: none;
 }
 
 .img-flags {
@@ -137,21 +146,21 @@ hr {
   text-align: center;
 }
 
-.btn-white{
+.btn-white {
   background-color: white;
 }
 
-.box-next{
-  display: flex;
+.box-next {
   align-items: flex-end;
+  display: flex;
   height: 15vh;
 }
 
 .next {
   background-color: #ea0b8c;
-  color: white;
-  border-color: #b80b8c;
   border-bottom-width: .33332rem;
+  border-color: #b80b8c;
+  color: white;
   font-weight: 400;
   text-transform: uppercase;
   transition: .5s;
@@ -175,19 +184,24 @@ hr {
   margin-bottom: 8px;
 }
 
+
 /* code */
 
-.code{
+.code {
   border: none;
   border-bottom: 4px solid #ea0b8c;
-  width: 35px;
-  border-radius: 0px;
-  outline: none;
+  border-radius: 0;
   letter-spacing: 1px;
+  outline: none;
+  width: 35px;
 }
 
 .top {
   margin-top: 20px;
 }
 
-
+.box {
+  top: 0;
+  color: #500a8a;
+  background-color: white;
+}
