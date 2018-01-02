@@ -175,5 +175,19 @@ hr {
   margin-bottom: 8px;
 }
 
+/* code */
+
+.code{
+  border: none;
+  border-bottom: 4px solid #ea0b8c;
+  width: 35px;
+  border-radius: 0px;
+  outline: none;
+  letter-spacing: 1px;
+}
+
+.top {
+  margin-top: 20px;
+}
 
 
