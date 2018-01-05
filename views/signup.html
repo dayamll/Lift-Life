@@ -21,38 +21,36 @@
     <p>Join now for free ride credit</p>
     <hr>
     <div class="btn-group">
-      <button type="button" class="btn btn-white dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <img class="img-flags" src="../assets/images/mexico.png">
+      <button type="button" class="btn btn-white dropdown-toggle" id="code-countries" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <img class="img-flags" data-code="+52" src="../assets/images/ban-mexico.png">
         <span class="glyphicon glyphicon-chevron-down"></span>
       </button>
 
-      <ul class="dropdown-menu">
+      <ul class="dropdown-menu" id="codigo">
         <li>
-          <a href="#" title="Select this card">
-            <img class="img-flags" src="../assets/images/peru.png">
+          <a href="#" class="img-flags" title="flag">
+            <img data-code="+51" src="../assets/images/ban-peru.png">
           </a>
         </li>
         <li>
-          <a href="#" title="Select this card">
-            <img class="img-flags" src="../assets/images/us.png">
+          <a href="#"class="img-flags" title="flag">
+            <img data-code="+1" src="../assets/images/ban-us.png">
           </a>
         </li>
         <li>
-          <a href="#" title="Select this card">
-            <img class="img-flags" src="../assets/images/colombia.png">
+          <a href="#" class="img-flags" title="flag">
+            <img data-code="+53" src="../assets/images/ban-colombia.png">
           </a>
         </li>
       </ul>
     </div>
 
-    <input type="text" class="inline input-phone" placeholder="52" maxlength="10">
+    <input type="text" class="inline input-phone" id="" placeholder="+52" maxlength="10">
     <p>We'll send a text to verify your phone</p>
     <div class="box-next">
       <button href="#" class="btn btn-block next" disabled>Next</button>
     </div>
-
-
-
+    
   </section>
   <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
   <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
